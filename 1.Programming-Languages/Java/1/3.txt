@@ -1,0 +1,49 @@
+Variables
+
+variable is a way to store data in program
+
+varialbles can store different data based on it's data type
+
+Variable Naming Conventions:
+    starts with alphabet (upper or lower)
+    does not start with numbers
+    camel case
+    no special symbols except _ or $
+
+java is statistically typed because before declaring a variable you need to mention the type of the variable
+
+Constant Naming Conventions:
+    usually uppercase and underscore joining two words
+
+        int MAX_AGE;
+        float MIN;
+
+Data Type: tells the type of data
+
+Primitive Data Types
+    boolean : true or false
+    byte    : -128 to 127
+    short   : 32768 to 32767
+    int     : -2147
+    long    :-2pow63 - 2pow63-1
+    float   : single precision 32 bit
+    double  : double precision 32 bit
+    char    : 16 bit unicode character ('\u00000' to '\uffff)
+
+
+Program
+ class DataTypes{
+     pubic static void main(String[] args){
+         bool isValid = true;
+         byte marks = 20;
+         float pi = 3.14;
+         float div= 15.0f/4.0f;
+         long views = 10000000000;
+         char gender = 'M';
+     }
+ }
+
+
+
+
+

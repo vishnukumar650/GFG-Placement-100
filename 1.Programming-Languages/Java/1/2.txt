@@ -1,0 +1,62 @@
+IDE
+    An IDE, or Integrated Development Environment, enables programmers to consolidate the different aspects of writing a computer program.
+    IDEs increase programmer productivity by combining common activities of writing software into a single application: editing source code, building executables, and debugging.
+
+Popular IDEs for Java Development
+    Eclipse
+    NetBeans
+    IntelliJ IDEA
+    BlueJ
+    JDeveloper (Oracle)
+    DrJava
+    JCreator
+    jGRASP
+    Greenfoot
+    MyEclipse
+    Xcode
+    Codenvy
+
+CLASSPATH
+    https://www.geeksforgeeks.org/classpath-in-java/
+
+Online IDEs for Java Development
+    http://codechef.com/ide
+    https://www.tutorialspoint.com/compile_java_online.php
+    https://www.jdoodle.com/online-java-compiler/
+    https://www.onlinegdb.com/online_java_compiler
+    https://ideone.com/
+    https://compiler.javatpoint.com/opr/online-java-compiler.jsp
+
+
+First Java Program
+    // Hello World Program in Java - Single Line Comment
+    public class HelloWorld{
+        /* This the main function,
+           this is where the execution of
+           a java program begins */
+        public static void main(String args[]){
+            System.out.println("Hello World!");
+        }
+    }
+
+
+public: access specifier
+class: keyword to create a class in java
+HelloWorld: name of the class
+static: access modifier
+void: return type
+main: method name
+String args[]: String array named args for reading command line arguments to the main program.
+System.out.println: https://www.geeksforgeeks.org/system-out-println-in-java/
+
+
+
+Running the code:
+    $ javac HelloWorld.java     // Compilation - .java (source code) to .class (byte code)
+    $ java HelloWorld           // Running the byte code (JVM interprets the byte code)
+
+
+Java IO : Input-output in Java with Examples
+    https://www.geeksforgeeks.org/java-io-input-output-in-java-with-examples/
+
+
